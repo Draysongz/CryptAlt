@@ -1,0 +1,83 @@
+@media only screen and (max-width:375px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #292626;;
+    }
+    .we-text{
+        font-family: 'Satoshi', sans-serif;
+        color: white;
+        font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 51px;
+    position: absolute;
+    width: 326px;
+    height: 102px;
+    left: 24px;
+    top: 232px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+        position: absolute;
+        width: 327px;
+        height: 116px;
+        left: 24px;
+        top: 473px;
+    }
+    .signup-btn{
+    width: 90vw;
+    text-align: center;
+    height: 7vh;
+    font-family: 'Satoshi', sans-serif;
+    border: none;
+    font-weight: 300;
+    font-size: medium;
+    padding: 3px;
+    background-color: #ff6600;
+    color: white;
+    border-radius: 10px;
+    }
+    .login-btn{
+        width: 90vw;
+    text-align: center;
+    height: 7vh;
+    font-family: 'Satoshi', sans-serif;
+    border: none;
+    font-weight: 300;
+    font-size: medium;
+    padding: 3px;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    }
+    .or{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 241px;
+    height: 19px;
+    left: 67px;
+    top: 613px;
+    }
+    .line{
+        color: white;
+        font-family: 'Satoshi', sans-serif;
+        font-size: large;
+    
+    }
+}
